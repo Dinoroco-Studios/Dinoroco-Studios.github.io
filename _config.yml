@@ -3,7 +3,7 @@ title               : Dinoroco Studios
 description         : >-
                       A Spanish software company founded in 2022 dedicated to developing applications for iOS.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : dinoroco/dinoroco.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : Dinoroco-Studios/Dinoroco-Studios.github.io
 #remote_theme        : dinoroco/dinoroco.github.io
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -27,9 +27,9 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Dinoroco Studios
   email             : info@dinoroco.com
-  github            : dinoroco
-  linkedin          : dinoroco
-  twitter           : Dinoroco
+  github            : Dinoroco-Studios
+  linkedin          : dinoroco-studios
+  twitter           : DinorocoStudios
 
 
 ### Posts ###
