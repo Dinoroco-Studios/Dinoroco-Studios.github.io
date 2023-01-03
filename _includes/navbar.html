@@ -23,6 +23,9 @@
           {%- if exclude_path == html_page.path -%}
             {%- assign exclude = true -%}
             {%- break -%}
+          {%- elsif html_page.title contains 'Acerinox' -%}
+            {%- assign exclude = true -%}
+            {%- break -%}
           {%- elsif exclude_path contains '**' -%}
             {%- assign match = exclude_path | remove: '**' -%}
             {%- if html_page.path contains match -%}
