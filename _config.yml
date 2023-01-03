@@ -22,6 +22,8 @@ nav_exclude:                                            # The following paths ar
   - pages/index.md
   - pages/acerinox-terms.md
   - pages/acerinox-privacy.md
+  - pages/work-calendar-terms.md
+  - pages/work-calendar-privacy.md
   - documentation/partials/**                           # For Documentation Only
 
 
