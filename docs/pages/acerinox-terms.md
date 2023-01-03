@@ -9,7 +9,7 @@ weight: 3
 <div class="col-lg-10 mx-auto mt-5 markdown-body">
 <h1 id="about-me"><strong>Terms and Conditions</strong></h1>
 <div id="container" class="my-2">
-      <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">Welcome to Acerinox!
+      <p>Welcome to Acerinox!
       <br />
 	<br />
       These terms and conditions outline the rules and regulations for the use of Acerinox.
