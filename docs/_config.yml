@@ -114,3 +114,4 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+  - _site
