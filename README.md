@@ -59,4 +59,4 @@ This project is licensed under the [License Name]- see the [LICENSE.md](LICENSE.
 
 ### Contact
 
-If you have any question, concerns, or suggestions, feel free to contact us at [info@dinoroco.com](info@dinoroco.com).
+If you have any question, concerns, or suggestions, feel free to contact us at [info@dinoroco.com](mailto:info@dinoroco.com).
