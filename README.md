@@ -47,7 +47,7 @@ Explain how to use the software once it is installed. Provide examples and guide
 
 ### Contributing
 
-We welcome contributions from the community! If you'd like to contribute  [Your  Company Name] Software, please follow these guidelines.
+We welcome contributions from the community! If you'd like to contribute  Dinoroco Studios Software, please follow these guidelines.
 
 1. Fork the repository.
 2. Create a new branch for your features or bug fix.
@@ -55,7 +55,7 @@ We welcome contributions from the community! If you'd like to contribute  [Your 
 
 ### License
 
-This project is licensed under the [License Name]- see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License- see the [LICENSE.md](LICENSE.md) file for details.
 
 ### Contact
 
