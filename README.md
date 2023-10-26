@@ -42,4 +42,21 @@ Explain how to use the software once it is installed. Provide examples and guide
 ### Examples
 
 ```bash
-# Provide usage examples or code snippets
+ Provide usage examples or code snippets
+```
+
+### Contributing
+
+We welcome contributions from the community! If you'd like to contribute  [Your  Company Name] Software, please follow these guidelines.
+
+1. Fork the repository.
+2. Create a new branch for your features or bug fix.
+3. Make your changes and submit a pull request.
+
+### License
+
+This project is licensed under the [License Name]- see the [LICENSE.md](LICENSE.md) file for details.
+
+### Contact
+
+If you have any question, concerns, or suggestions, feel free to contact us at [info@dinoroco.com](info@dinoroco.com).
