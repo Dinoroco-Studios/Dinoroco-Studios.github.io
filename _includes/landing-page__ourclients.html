@@ -1,9 +1,43 @@
 <style>
+    /* .markdown-body{
+        background-color: #00a7dc;
+        padding: 20px;
+    } */
+    @media screen and (max-width: 48em) {
+        .our-clients__image{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 30px; /* Adjust as needed */
+    }
+    }
     .our-clients__image{
         width: 100%;
         height: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px; /* Adjust as needed */
+    }
+    .ourclients{
+        max-width: 300px;
+        height: auto;
+    }
+    .sponsorText{
+        margin-bottom: 50px;
+        text-align: center;
+        font-weight: bold;
     }
 </style>
+
+<h2 class="sponsorText">Our Sponsors</h2>
 <div class="our-clients__image">
-    <img src="/assets/ourclients.jpg" alt="ourclients" >
+    <img class="ourclients" src="/assets/betvictor.png" alt="ourclients" >
+    <img class="ourclients" src="/assets/carrefour.png" alt="ourclients" >
+    <img class="ourclients" src="/assets/cetelem.png" alt="ourclients" >
+    <img class="ourclients" src="/assets/elitech-lab.jpg" alt="ourclients" >
+    <img class="ourclients" src="/assets/indra.png" alt="ourclients" >
+    <img class="ourclients" src="/assets/linearity.jpg" alt="ourclients" >
+    <img class="ourclients" src="/assets/santander.png" alt="ourclients" >
+    <img class="ourclients" src="/assets/whascine.png" alt="ourclients" >
 </div>
