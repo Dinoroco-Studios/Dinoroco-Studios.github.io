@@ -373,19 +373,20 @@ body { font-family: "Poppins", sans-serif; }
 [data-theme="dark"] body { background-color: #17191a; color: rgba(255, 255, 255, 0.9); }
 [data-theme="dark"] .ourclients:nth-child(1) { filter: invert(1); }
 [data-theme="dark"] .ourclients:nth-child(2) { margin-top: 20px !important; filter: invert(1); }
-[data-theme="dark"] .ourclients:nth-child(3) { margin-top: -10px !important; filter: invert(1); }
-[data-theme="dark"] .ourclients:nth-child(4) { filter: invert(1); }
+[data-theme="dark"] .ourclients:nth-child(3) { filter: invert(1); }
+[data-theme="dark"] .ourclients:nth-child(4) { filter: invert(1); filter: grayscale(100%); }
 [data-theme="dark"] .ourclients:nth-child(5) { margin-top: 25px !important; filter: invert(1); }
-[data-theme="dark"] .ourclients:nth-child(6) { filter: invert(1); }
+[data-theme="dark"] .ourclients:nth-child(6) { filter: invert(1); margin-top: 0px; }
 [data-theme="dark"] .ourclients:nth-child(7) { margin-top: 5px !important; filter: invert(1); }
 [data-theme="dark"] .ourclients:nth-child(8) { margin-top: 8px !important; filter: invert(1); }
-[data-theme="dark"] .ourclients:nth-child(9) { margin-top: -5px !important; filter: invert(1); }
+[data-theme="dark"] .ourclients:nth-child(9) { filter: invert(1); }
 [data-theme="dark"] .ourclients:nth-child(10) { filter: invert(1); }
-[data-theme="dark"] .ourclients:nth-child(11) { filter: invert(1); }
-[data-theme="dark"] .ourclients:nth-child(12) { margin-top: 20px !important; filter: invert(1); }
-[data-theme="dark"] .ourclients:nth-child(13) { filter: invert(1); margin-top: 50px !important; filter: invert(1); }
+[data-theme="dark"] .ourclients:nth-child(11) { filter: invert(1); margin-top: 30px; }
+[data-theme="dark"] .ourclients:nth-child(12) { filter: invert(1); }
+[data-theme="dark"] .ourclients:nth-child(13) { filter: invert(1); filter: invert(1); }
 [data-theme="dark"] .ourclients:nth-child(14) { filter: invert(1); }
 [data-theme="dark"] .ourclients:nth-child(15) { filter: invert(1); }
+[data-theme="dark"] .ourclients:nth-child(16) { filter: invert(1); margin-top: 40px; }
 [data-theme="dark"] .highlight .hll, [data-theme="dark"] pre .hll, [data-theme="dark"] code.highlighter-rouge .hll { background-color: #404040; }
 [data-theme="dark"] .highlight, [data-theme="dark"] pre, [data-theme="dark"] code.highlighter-rouge { background: #202020; color: #d0d0d0; }
 [data-theme="dark"] .highlight .c, [data-theme="dark"] pre .c, [data-theme="dark"] code.highlighter-rouge .c { color: #999999; font-style: italic; }
@@ -480,18 +481,19 @@ body { font-family: "Poppins", sans-serif; }
 
 @media screen and (max-width: 48em) { .our-clients__image { width: 100%; display: grid; grid-template-columns: repeat(3, 1fr) !important; grid-gap: 30px; /* Adjust as needed */ }
   .clients-description { font-size: 0.7em; }
-  .ourclients:nth-child(1) { margin-top: -10px !important; }
-  .ourclients:nth-child(2) { margin-top: 20px !important; }
-  .ourclients:nth-child(3) { margin-top: -10px !important; filter: contrast(0.4); }
+  .ourclients:nth-child(1) { margin-top: 40px !important; }
+  .ourclients:nth-child(2) { margin-top: 40px !important; }
+  .ourclients:nth-child(3) { margin-top: 40px !important; filter: contrast(0.4); }
+  .ourclients:nth-child(4) { margin-top: 50px !important; }
   .ourclients:nth-child(5) { margin-top: 20px !important; }
-  .ourclients:nth-child(6) { margin-top: 25px !important; }
+  .ourclients:nth-child(6) { margin-top: 35px !important; }
   .ourclients:nth-child(7) { margin-top: 5px !important; }
   .ourclients:nth-child(8) { margin-top: 8px !important; }
-  .ourclients:nth-child(9) { margin-top: 5px !important; }
-  .ourclients:nth-child(10) { margin-top: 30px !important; }
-  .ourclients:nth-child(12) { margin-top: 20px !important; }
+  .ourclients:nth-child(9) { margin-top: 10px !important; }
+  .ourclients:nth-child(10) { margin-top: 25px !important; }
+  .ourclients:nth-child(12) { margin-top: 28px !important; }
   .ourclients:nth-child(13) { margin-top: 30px !important; } }
-@media (min-width: 48em) and (max-width: 64.2em) { .our-clients__image { width: 100%; display: grid; grid-template-columns: repeat(3, 1fr) !important; grid-gap: 70px !important; /* Adjust as needed */ }
+@media (min-width: 48em) and (max-width: 64em) { .our-clients__image { width: 100%; display: grid; grid-template-columns: repeat(3, 1fr) !important; grid-gap: 70px !important; /* Adjust as needed */ }
   .ourclients:nth-child(1) { margin-top: 0px !important; }
   .ourclients:nth-child(2) { margin-top: 50px !important; }
   .ourclients:nth-child(3) { margin-top: -10px !important; filter: contrast(0.4); }
@@ -509,24 +511,18 @@ body { font-family: "Poppins", sans-serif; }
 
 .clientsText { margin-bottom: 30px; text-align: center; font-weight: bold; }
 
-.ourclients:nth-child(1) { margin-top: -20px !important; }
-
-.ourclients:nth-child(2) { margin-top: 20px !important; }
-
-.ourclients:nth-child(3) { margin-top: -10px !important; filter: contrast(0.4); }
-
-.ourclients:nth-child(5) { margin-top: 25px !important; }
-
-.ourclients:nth-child(7) { margin-top: 5px !important; }
-
-.ourclients:nth-child(8) { margin-top: 8px !important; }
-
-.ourclients:nth-child(9) { margin-top: -5px !important; }
-
-.ourclients:nth-child(12) { margin-top: 20px !important; }
-
-.ourclients:nth-child(13) { margin-top: 50px !important; }
-
+@media screen and (min-width: 64em) { .ourclients:nth-child(1) { margin-top: 55px !important; }
+  .ourclients:nth-child(2) { margin-top: -20px !important; }
+  .ourclients:nth-child(3) { margin-top: 60px !important; }
+  .ourclients:nth-child(4) { margin-top: 90px !important; filter: grayscale(100%); filter: contrast(0.4); }
+  .ourclients:nth-child(5) { margin-top: 25px !important; }
+  .ourclients:nth-child(7) { margin-top: 5px !important; }
+  .ourclients:nth-child(8) { margin-top: 8px !important; }
+  .ourclients:nth-child(9) { margin-top: 20px !important; }
+  .ourclients:nth-child(10) { margin-top: 5px !important; }
+  .ourclients:nth-child(12) { margin-top: 20px !important; }
+  .ourclients:nth-child(13) { margin-top: 50px !important; }
+  .ourclients:nth-child(16) { margin-top: 40px !important; } }
 .clients-description { text-align: center; font-size: 1em; color: #838B91; }
 
 .our-clients__image { margin: 90px 0px 50px 0px; }

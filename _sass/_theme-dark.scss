@@ -17,11 +17,11 @@ $dark-900: #17191a;
     filter: invert(1);
 }
 .ourclients:nth-child(3){
-    margin-top: -10px !important;
     filter: invert(1);
 }
 .ourclients:nth-child(4){
   filter: invert(1);
+  filter: grayscale(100%);
 }
 .ourclients:nth-child(5){
     margin-top: 25px !important;
@@ -29,6 +29,7 @@ $dark-900: #17191a;
 }
 .ourclients:nth-child(6){
   filter: invert(1);
+  margin-top: 0px;
 }
 .ourclients:nth-child(7){
     margin-top: 5px !important;
@@ -39,7 +40,6 @@ $dark-900: #17191a;
     filter: invert(1);
 }
 .ourclients:nth-child(9){
-    margin-top: -5px !important;
     filter: invert(1);
 }
 .ourclients:nth-child(10){
@@ -47,14 +47,13 @@ $dark-900: #17191a;
 }
 .ourclients:nth-child(11){
   filter: invert(1);
+  margin-top: 30px;
 }
 .ourclients:nth-child(12){
-    margin-top: 20px !important;
     filter: invert(1);
 }
 .ourclients:nth-child(13){
     filter: invert(1);
-    margin-top: 50px !important;
     filter: invert(1);
 }
 .ourclients:nth-child(14){
@@ -62,6 +61,10 @@ $dark-900: #17191a;
 }
 .ourclients:nth-child(15){
   filter: invert(1);
+}
+.ourclients:nth-child(16){
+  filter: invert(1);
+  margin-top: 40px
 }
   // Code blocks & Syntax highlighting
 
