@@ -507,12 +507,12 @@ body { font-family: "Poppins", sans-serif; }
   .ourclients:nth-child(13) { margin-top: 50px !important; } }
 .our-clients__image { width: 100%; display: grid; grid-template-columns: repeat(5, 1fr); grid-gap: 30px; /* Adjust as needed */ }
 
-.ourclients { max-width: 100px; /* Adjust this size based on your requirement */ height: auto; margin: auto; /* Centers the logos horizontally */ }
+.ourclients { max-width: 100px; /* Adjust based on your needs */ height: auto; margin: auto; /* Center the image within the grid cell */ }
 
 .clientsText { margin-bottom: 30px; text-align: center; font-weight: bold; }
 
 @media screen and (min-width: 64em) { .ourclients:nth-child(1) { margin-top: 55px !important; }
-  .ourclients:nth-child(2) { margin-top: -20px !important; }
+  .ourclients:nth-child(2) { margin-top: 20px !important; }
   .ourclients:nth-child(3) { margin-top: 60px !important; }
   .ourclients:nth-child(4) { margin-top: 90px !important; filter: grayscale(100%); filter: contrast(0.4); }
   .ourclients:nth-child(5) { margin-top: 25px !important; }
@@ -522,7 +522,9 @@ body { font-family: "Poppins", sans-serif; }
   .ourclients:nth-child(10) { margin-top: 5px !important; }
   .ourclients:nth-child(12) { margin-top: 20px !important; }
   .ourclients:nth-child(13) { margin-top: 50px !important; }
-  .ourclients:nth-child(16) { margin-top: 40px !important; } }
+  .ourclients:nth-child(16) { margin-top: 40px !important; margin-left: 120% !important; }
+  .ourclients:nth-child(17) { margin-left: 120% !important; margin-top: 10px !important; }
+  .ourclients:nth-child(18) { margin-left: 120% !important; } }
 .clients-description { text-align: center; font-size: 1em; color: #838B91; }
 
 .our-clients__image { margin: 90px 0px 50px 0px; }

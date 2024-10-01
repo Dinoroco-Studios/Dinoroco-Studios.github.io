@@ -101,10 +101,10 @@
     grid-gap: 30px; /* Adjust as needed */
 }
 
-.ourclients{
-    max-width: 100px; /* Adjust this size based on your requirement */
+.ourclients {
+    max-width: 100px; /* Adjust based on your needs */
     height: auto;
-    margin: auto; /* Centers the logos horizontally */
+    margin: auto; /* Center the image within the grid cell */
 }
 
 .clientsText{
@@ -118,7 +118,7 @@
         margin-top: 55px !important;
     }
     .ourclients:nth-child(2){
-        margin-top: -20px !important;
+        margin-top: 20px !important;
     }
     .ourclients:nth-child(3){
         margin-top: 60px !important;
@@ -151,7 +151,15 @@
     }
     .ourclients:nth-child(16){
         margin-top: 40px !important;
-    }
+        margin-left: 120% !important;
+    } 
+    .ourclients:nth-child(17){
+        margin-left: 120% !important;
+        margin-top: 10px !important;
+    } 
+    .ourclients:nth-child(18){
+        margin-left: 120% !important;
+    } 
 }
 
 .clients-description{
