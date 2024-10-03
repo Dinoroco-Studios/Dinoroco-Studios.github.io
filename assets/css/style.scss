@@ -7,29 +7,23 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr) !important;
-        grid-gap: 30px; /* Adjust as needed */
-    }
-    .clients-description{
-        font-size: 0.7em;
+        grid-gap: 30px !important; /* Adjust as needed */
     }
     .ourclients:nth-child(1){
-        margin-top: 40px !important;
+        margin-top: 0px !important;
     }
     .ourclients:nth-child(2){
-        margin-top: 40px !important;
+        margin-top: -25px !important;
     }
     .ourclients:nth-child(3){
-        margin-top: 40px !important;
+        margin-top: 0px !important;
         filter: contrast(0.4);
     }
-    .ourclients:nth-child(4){
-        margin-top: 50px !important;
-    }
     .ourclients:nth-child(5){
-        margin-top: 20px !important;
+        margin-top: 0px !important;
     }
     .ourclients:nth-child(6){
-        margin-top: 35px !important;
+        margin-top: 25px !important;
     }
     .ourclients:nth-child(7){
         margin-top: 5px !important;
@@ -38,16 +32,25 @@
         margin-top: 8px !important;
     }
     .ourclients:nth-child(9){
-        margin-top: 10px !important;
+        margin-top: 15px !important;
     }
     .ourclients:nth-child(10){
-        margin-top: 25px !important;
+        margin-top: 40px !important;
     }
     .ourclients:nth-child(12){
-        margin-top: 28px !important;
+        margin-top: 20px !important;
     }
     .ourclients:nth-child(13){
-        margin-top: 30px !important;
+        margin-top: 20px !important;
+    }
+    .ourclients:nth-child(14){
+        margin-top: 15px !important;
+    }
+    .ourclients:nth-child(15){
+        margin-top: 25px !important;
+    }
+    .ourclients:nth-child(18){
+        margin-top: 35px !important;
     }
 }
 
